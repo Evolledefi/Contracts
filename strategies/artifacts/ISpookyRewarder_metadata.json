@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "pendingToken",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "pending",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"strategies/StrategySpookyV2LP.sol": "ISpookyRewarder"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"strategies/StrategySpookyV2LP.sol": {
+			"keccak256": "0xfbfebde965f8e41ef22cc5eb0bc1e81d2750d73c4127aeef677da78eb40afd3e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4eedd49b89da301d64f30f1b38b2bdf1a8fbb2f1a9cc6bfcbdcc1fd7067e8c3b",
+				"dweb:/ipfs/QmbQW5kjSd2TfbsftgpRPvUKxAyQ26DHj39GYL8Uym9S7T"
+			]
+		}
+	},
+	"version": 1
+}

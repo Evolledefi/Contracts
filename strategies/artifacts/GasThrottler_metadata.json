@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "gasprice",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shouldGasThrottle",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"strategies/StrategyCommonBsc.sol": "GasThrottler"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"strategies/StrategyCommonBsc.sol": {
+			"keccak256": "0xd72a9258e64b90cc47da5e524e7ebf18d42861dfacd84e889a015e47e7226ed8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa60aabb07e70ea482406a1ce564ba68d639ea1a8e8b5ab007a9a33f49412183",
+				"dweb:/ipfs/QmfPQaYdKtAhErUJm2SHg6B3xqRA4dNaM45D1m3Y9bYQCP"
+			]
+		}
+	},
+	"version": 1
+}
